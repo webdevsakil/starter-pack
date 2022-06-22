@@ -1,32 +1,90 @@
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
-
-
+@media (min-width: 320px) and (max-width: 480px) {
+    .logo a {
+        font-size: 20px;
+    }
+    .store-name {
+        font-size: 30px;
+    }
+    .header-area {
+        margin: 0px 10px;
+    }
+    .header-area .img-area {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .left-area .button {
+        padding-right: 0px;
+    }
+    .card-wrapper {
+        width: 100%;
+    }
+    .subtitle {
+        margin-left: 0;
+    }
+    .card-wrappper span:nth-child(1) {
+        margin-left: 0px;
+    }
+    .lists li {
+        margin-right: 0px;
+    }
+    .right-area .button {
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    .right-area .card-item span:nth-child(1) {
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+    .card-wrapper {
+        margin-left: 0px;
+    }
+    .btn-area {
+        margin-left: 0px;
+    }
+    .card-item .text{
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
-
-/* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
-
-
-}
-
- 
-/* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
-
-
-}
-
- 
-/* small mobile :320px. */
-@media (max-width: 767px) {
-
- 
-}
- 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+    .right-area .button {
+        padding-left: 0px;
+    }
+    .left-area .button {
+        padding-right: 0px;
+    }
+    .card-item {
+        text-align: center;
+    }
+    .card-wrapper {
+        margin-left: 0px;
+    }
+    .card-item .text span{
+        display: block;
+    }
 }
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area .img-area {
+        margin-bottom: 20px;
+    }
+    .right-area.mt-20 {
+        margin-top: 0px;
+    }
+}
+/* Normal desktop :1200px. */
+@media (min-width: 992px) and (max-width: 1500px) {
+    .card-wrappper {
+        max-width: 300px;
+    }
+    .card-wrappper span:nth-child(1) {
+        margin-left: -26px;
+    }
+    .sub-title,.main-title{
+        margin-left: 5px;
+    }
+}
+
